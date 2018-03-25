@@ -1,0 +1,114 @@
+h1 {
+  text-align:center;
+  font-size:30px;
+  font-family: 'Spectral', serif;
+  font-weight:normal;
+}
+
+h2 {
+  text-align:center;
+  font-size:15px;
+  font-weight:normal;
+  font-family: 'Spectral', serif;
+  margin-top:-30px;
+}
+
+body {
+  background-color: lavender;
+}
+    
+#overall {
+  margin:0 auto;
+  border:1px solid black;
+  width:800px;
+  padding:25px;
+  background-color:white;
+  font-family: 'Spectral', serif;
+}
+
+#display {
+  width:750px;
+  margin:10px;
+  padding:15px;
+  text-align:left;
+  height:60px;
+  background-color:#595959;
+  color:white;
+  border:5px double white;
+  font-family: 'Spectral', serif;
+}
+
+#top {
+  border-bottom:1px solid white;
+}
+
+#result {
+  text-align:right;
+  color:white;
+  font-style:italic;
+}
+
+button {
+  padding:30px;
+  width:80px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:bold;
+  font-size:15px;
+  background-color:white;
+  border:1px solid black;
+  transition:0.5s;
+  border-radius:50%;
+}
+
+button:hover {
+  background-color:lightblue;
+  border:1px solid lightblue;
+  cursor:pointer;
+  transition:0.5s;
+}
+
+.row {
+  margin-bottom:10px;
+}
+  
+#buttons {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  }
+
+#equal {
+  width:80px;
+  border-radius:50%;
+}
+
+#equal:hover {
+  background-color:lightgreen;
+  border:1px solid lightgreen;
+  transition:0.5s;
+}
+
+#plus:hover {
+  background-color:lightgreen;
+  border:1px solid lightgreen;
+  transition:0.5s;
+}
+  
+#clear:hover {
+  background-color:salmon;
+  border:1px solid salmon;
+}
+
+a {
+  text-decoration:none;
+  color:white;
+  transition:0.5s;
+  padding-bottom:0.5px;
+  border-bottom:1px dotted white;
+}
+
+a:hover {
+  color:lightblue;
+  transition:0.5s;
+  border-bottom:1px dotted lightblue;
+}
